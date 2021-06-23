@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ .container-fluid{
+    width: 100%;
+}
+.header{height: 80px;}
+.main{height: 90px;}
+.main .about-main .row{height:470px;}
+.main .skills-main .row{height: 320px;}
+.progress{height:10px;}
+
+.education{height: 400px;}
+
+.portfolio{height: 800px;}
+
+.services .row {height: 300px;}
+
+.contact{height: 400px;}
+/*---------------------------ANIMATION in SKILLS section-----------------* /
+                 div{ text-align: center;
+                      /*background-color:grey;* /
+                      height: 20px;
+                      width: 200px;
+                      animation-name: dynamicProgress;
+                      animation-duration: 10s;
+                      /* animation-delay: 1s; * /
+                      animation-iteration-count: infinite;
+                      /* animation-direction:alternate-reverse; * /
+                      animation-timing-function:linear;
+                      position:fixed;}
+
+           /* @keyframes dynamicProgress  {
+            from{width:0%;background-color:red;}
+            to{width: 75%;background-color: green;} }  * /
+
+             @keyframes dynamicProgress {
+                0%   {background-color: grey;} 
+               75% {background-color: green;}
+            } 
+              /* 25%  {background-color: yellow;}
+              50%  {background-color: blue;} */
+
+/*---------------------------ANIMATION in SKILLS section-----------------*/

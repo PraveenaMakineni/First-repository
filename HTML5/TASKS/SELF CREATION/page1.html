@@ -1,0 +1,62 @@
+<!---<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ST PAGE</title>
+</head>
+<body>
+    
+</body>
+</html> --->
+
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Slides</h2>
+
+<div class="w3-content" style="max-width:400px">
+  <div class="mySlides w3-container w3-yellow">
+    <h1><b>Enjooy and </b></h1>
+    <h1><i>plan to trip in the 2021s</i></h1>
+  </div>
+
+  <img class="mySlides" src="https://tse1.mm.bing.net/th?id=OIP.We-8bSjpj-ixucw8mNu4yQHaEK&pid=Api&rs=1&c=1&qlt=95&w=180&h=101" style="width:100%">
+
+  <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
+    <p><span class="w3-tag w3-blue">*</span>
+    <p>Nature is</p>
+    <p>Evergreen!!!</p>
+  </div>
+
+  <img class="mySlides" src="https://tse1.mm.bing.net/th?id=OIP.biaJKYKeonMZ5euQAJj83QHaEo&pid=Api&rs=1&c=1&qlt=95&w=176&h=110" style="width:100%">
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+</body>
+</html>

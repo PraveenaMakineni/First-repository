@@ -1,0 +1,31 @@
+table, tr, td {
+  border: #ebebf3;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: skyblue;
+}
+
+tr:nth-child(odd) {
+  background-color: skyblue;
+}
+
+th {
+  background-color: blue;
+}
+
+body {
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+/*# sourceMappingURL=styles.css.map */

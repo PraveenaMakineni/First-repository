@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header .name{
+    width: 20%;
+}
+
+.navbar-nav .navbar-item{
+    text-align:right;
+}

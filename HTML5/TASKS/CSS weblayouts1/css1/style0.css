@@ -1,0 +1,36 @@
+#container{
+        width:96%;
+        margin:auto;
+         }
+    
+    
+    #header
+        {
+            background-color:pink;
+            height:100px;
+        }
+
+        #menu
+        {
+            background-color:lightblue;
+            height:60px;
+        }
+
+        #main
+        {
+            background-color:#e5e5e5;
+            height:400px;
+        }
+        .main_columns
+        {
+           width:25%;
+           height:100%;
+           float:left;
+        }
+
+
+        #footer
+        {
+            background-color:lightgreen;
+            height:50px;
+        }

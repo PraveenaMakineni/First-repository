@@ -1,0 +1,19 @@
+HTML <progress> Tag:
+-------------------
+
+* It is used to represent the progress of a task.
+* It is also defined how much work is done and how much is left to download a thing.
+* It is not used to represent the disk space or relevant query.
+
+Syntax:
+         <progress attributes...> </progress>
+
+Attributes:
+       The <progress> tag consists of two attributes which are listed below:
+
+max:   It represent the total work is to be done for completing a task.
+
+value: It represent the amount of work are already completed.
+
+Note:  This tag is used in conjunction with JavaScript to display the progress of a task. 
+       It is not used for gauging purposes.

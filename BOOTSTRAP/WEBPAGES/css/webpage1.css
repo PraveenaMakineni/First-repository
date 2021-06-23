@@ -1,0 +1,67 @@
+*{
+    padding:opx;
+    margin: 0px;
+}
+.container-fluid{
+    width: 100%;
+}
+header .navbar{
+    position:sticky;
+    top:0px;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+.slider{
+    width:100%;
+}
+.carousel-item img{
+    height: 550px;
+    margin: auto;
+}
+/****about section****/
+.tab-pane .well {
+    line-height:35px;
+    word-spacing: 1.0px;
+    letter-spacing: 0.3px;
+}
+.about-main img{
+    width: 15%;
+    text-align: center;
+}
+#ab img
+{
+    position:absolute;
+    left:42%;
+}
+#ab .abb
+{
+    clear:both;
+}
+
+.services-main .hr{
+    
+    border: 10px;
+    box-shadow: inset 0 12px 12px -12px rgba(9, 84, 132);
+/****about section****/
+/***services section(tabs1.css)*** /
+.services-main .layout .nav .page .page-contents .p{
+    line-height:35px;
+    word-spacing: 1.0px;
+    letter-spacing: 0.3px;
+     
+}
+/***services section(tabs1.css)***/
+
+/***RESPONSIVE FOR CAREERS SECTION***/
+@media only screen and (min-width: 320px) and  (max-width: 1000px){
+    .careers-main .treeview .input .text {height:400px;}}
+/***RESPONSIVE FOR CAREERS SECTION***/
+
+
+
+
+
+
+

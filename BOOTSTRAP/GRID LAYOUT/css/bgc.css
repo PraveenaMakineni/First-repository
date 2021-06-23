@@ -1,0 +1,16 @@
+<style>
+		p {
+			background-image: url("css/pravpic.jpg");
+            
+			background-repeat: repeat;
+			-webkit-background-clip: text;
+			/*-webkit-text-fill-color: transparent;*/
+			margin-top: 200px;
+			font-size: 60px;
+			text-align: center;
+			font-weight: bold;
+			/*text-transform: uppercase;*/
+			font-family: 'Steelfish Rg', 'helvetica neue',
+					      helvetica, arial, sans-serif;
+		}
+	</style>

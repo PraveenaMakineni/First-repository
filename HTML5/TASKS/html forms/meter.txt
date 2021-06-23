@@ -1,0 +1,25 @@
+HTML <meter> Tag:
+-----------------
+
+* It is used to define the measurement of scale in a well-defined range with a frictional value. 
+* It is also known as a gauge. It is used in Disk use, relevance query result, etc.
+
+Syntax:
+       <meter attributes.....></metre>
+
+ Attributes: 
+        This tag contains many attributes which are listed below:
+
+  form: It belongs to one or more forms that it belongs too.
+
+  max:  It is used to specify the maximum value of a range.
+
+  min:  It is used to specify the minimum value of a range.
+
+  high: It is used to specify the range considered to be a high value.
+
+  low:  It is used to specify the range value that is considered to be low.
+
+ Optimum: It is used to specify the optimum value for the range.
+
+ value: It is used to specify the required or actual value of the range.

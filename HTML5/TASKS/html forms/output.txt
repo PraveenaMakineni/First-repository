@@ -1,0 +1,21 @@
+HTML <output> Tag:
+-----------------
+
+* The <output> tag in HTML is used to represent the result of a calculation performed by the 
+  client-side script such as JavaScript. 
+* The <output> tag is a new tag in HTML 5, and it requires a starting and ends tag.
+
+* Syntax:
+       <output> Results... </output>
+
+* Attributes: 
+          The output tag accepts three attributes which are listed below: 
+
+    for:  This attribute contains an attribute value element_id which is used to specify
+           the relation between result and calculations.
+
+    form: This attribute contains an attribute value form_id which is used to specify 
+          one or more forms of output elements.
+
+    name: This attribute contains an attribute value name that is used to specify the 
+          name of the output element.       

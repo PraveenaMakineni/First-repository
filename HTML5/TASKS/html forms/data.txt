@@ -1,0 +1,9 @@
+HTML <datalist> Tag:
+-------------------
+
+* The <datalist> tag is used to provide autocomplete feature in the HTML files. 
+* It can be used with an input tag so that users can easily fill the data in the forms using 
+  select the data.
+  
+* Syntax:
+         <datalist>...........</datalist>

@@ -1,0 +1,27 @@
+<form>
+  <label></label>
+  <input type="text"/name/url/email/password/number/radio/>
+  name="name_index"
+  placeholder=""
+  value="text"
+  autocomplete="off/on"
+  autofocus
+  edit
+  readonly
+  disable
+  multiple
+  maxlength="number"
+  size
+  checked(radio/checkbox)
+  required
+  <select>
+    <optgroup label="">
+        <option value="">...</option>
+        ............................
+    </optgroup>
+  <select>
+  <textarea>......</textarea>    
+</form>
+  
+
+  

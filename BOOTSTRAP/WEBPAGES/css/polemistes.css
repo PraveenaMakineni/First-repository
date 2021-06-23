@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    background-image:url(lionn1b.jpg);
+    height:600px;
+    width:100%;
+    background-repeat:no-repeat; 
+    background-size:200vh 100vh;
+    opacity: 0.5;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+img{
+    height: 460px;
+    width: 70%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+ #blink{
+    color:yellow;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+#blink{
+    font-size: 15px;
+    font-weight:lighter;
+    font-style:normal;
+    color:rgb(209, 189, 189);
+    /*transition: 0.10s;*/}
+    
+#blink .spcl{
+    font-weight: bolder;
+    font-style:italic;
+    font-size: 20px;
+    color:red;
+}
+#blink .imp{
+    color:yellow;
+}
+

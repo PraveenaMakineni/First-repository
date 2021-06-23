@@ -1,0 +1,62 @@
+<html> 
+
+<head> 
+<title> </title>
+<h1></h1>
+</head>
+
+<body></body>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<p></p>
+Tags:
+<tag>...</tag>
+<tag../>
+Lists:
+<ol>
+ <li></li>
+ .....
+</ol>
+<ul>
+  <li></li>
+ .....
+</ul>
+<label></label>
+<input>text=""</input>
+<select>
+    <option> </otion>
+    .......
+</select>
+<textarea></textarea>
+
+Styles:
+<style></style>
+<style attribute:value/>    ->Inline
+<style></style>             ->Internal
+<style href="" ></style>    ->External
+
+Properties:
+<border><border>
+<background></background>
+<margin></margin>
+<padding></padding>
+<dimension></dimension>
+<list></list>
+<text></text>
+<inline></inline>
+
+Selectors:
+h{}
+
+
+
+
+
+
+
+
+
+
+
+

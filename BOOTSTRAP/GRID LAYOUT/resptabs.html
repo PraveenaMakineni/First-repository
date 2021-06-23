@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE TABS</title>
+    <link rel="stylesheet" href="css/resptabs.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+
+    <script src="js/bootstrap.js"></script>
+
+</head>
+<body>
+    <div class="tabs">
+        <!-- Radio button and lable for #tab-content1 -->
+        <input type="radio" name="tabs" id="tab1" checked >
+        <label for="tab1">
+            <i class="fa fa-html5"></i><span>HTML5<a href="tab-content-1"></a></span>
+        </label>
+        <!-- Radio button and lable for #tab-content2 -->
+        <input type="radio" name="tabs" id="tab2" checked>
+        <label for="tab2">
+            <i class="fa fa-css3"></i><span>CSS3<a href="tab-content-2"></a></span>
+        </label>
+        <!-- Radio button and lable for #tab-content3 -->
+        <input type="radio" name="tabs" id="tab3">
+        <label for="tab3">
+            <i class="fa fa-code"></i><span>jQuery<a href="tab-content-3"></a></span>
+        </label>
+
+        <div id="tab-content1" class="tab-content">
+            <h3>GOOD<!-- Tab title here --></h3>
+            <p>-------------------<!-- Tab content here --></p>
+        </div> <!-- #tab-content1 -->
+        <div id="tab-content2" class="tab-content">
+            <h3>OKAY<!-- Tab title here --></h3>
+            <p>********************<!-- Tab content here --></p>
+        </div> <!-- #tab-content2 -->
+        <div id="tab-content3" class="tab-content">
+            <h3>NOT BAD<!-- Tab title here --></h3>
+            <p>________________________<!-- Tab content here --></p>
+        </div> <!-- #tab-content3 -->
+    </div>
+</body>
+</html>

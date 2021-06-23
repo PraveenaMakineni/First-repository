@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+  }
+  
+  .main {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    height: 700px;
+    margin: 0 auto;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+  
+    filter: contrast(0.5) brightness(.7);
+    height: 100%;
+    opacity: .01;
+    position: absolute;
+    top: 0;
+    transition: opacity 200ms, transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+    transform: translateY(-100px);
+    width: 100%;
+}
+
+.bg2.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.top {
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+}
+
+.top.visible {
+  visibility: visible;
+}
+
+.top-contents {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+
+.hamburger {
+  opacity: 0;
+  transition: opacity 200ms 50ms;
+}
+
+.top.visible .hamburger {
+  opacity: .5;
+}
+
+.magnifier {
+  opacity: 0;
+  float: right;
+  transition: opacity 200ms 50ms;
+}
+
+.top.visible .magnifier {
+  opacity: .5;
+}
+
+.goodmorning {
+  color: white;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 6px;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 250ms 100ms;
+}
+
+.top.visible .goodmorning {
+  opacity: .7;
+}
+
+.user {
+  text-align: center;
+}
+
+.tachina {
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: transform 400ms 150ms;
+  transform: scale(0);
+}
+
+.top.visible .tachina {
+  transform: scale(1);
+}
+
+.notification {
+  background: #64DDCE;
+  border-radius: 50%;
+  color: white;
+  font-family: sans-serif;
+  height: 30px;
+  left: 225px;
+  line-height: 30px;
+  position: relative;
+  top: -110px;
+  transition: transform 400ms 400ms;
+  transform: scale(0);
+  width: 30px;
+}
+
+.top.visible .notification {
+  transform: scale(1);
+}
+
+.month {
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+  opacity: .6;
+  text-align: center;
+}
+
+.calendar {
+  background-color: white;
+  height: calc(100% - 340px);
+  top: 340px;
+  position: absolute;
+  transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  transform: translateY(-100px);
+  visibility: hidden;
+  width: 100%;
+}
+
+.calendar.visible {
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.calendar-contents {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.days {
+  color: #c3c3c3;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 12px;
+  opacity: 0.2;
+  padding: 20px 30px;
+  transition: opacity 200ms, transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  transform: scale(1.5);
+}
+
+.days div {
+  text-align: center;
+  width: 100%;
+}
+
+.calendar.visible .days {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.date {
+  color: #777;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 14px;
+  opacity: 0.2;
+  padding: 10px 30px;
+  transition: opacity 200ms,
+    transform 200ms 20ms cubic-bezier(0.23, 1, 0.32, 1);
+  transform: scale(1.5);
+}
+
+.date div {
+  text-align: center;
+  width: 100%;
+}
+
+.date > .current {
+  position: relative;
+}
+
+.date > .current:before {
+  background-color: rgba(0, 0, 0, 0.035);
+  content: ' ';
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  top: -14px;
+}
+
+.date > .action {
+  position: relative;
+}
+
+.date > .action:after {
+  background-color: red;
+  content: ' ';
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 3px);
+  top: 19px;
+}
+
+.calendar.visible .date {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.person {
+  border-top: 1px solid #f2f2f2;
+  display: flex;
+  margin-top: 15px;
+  opacity: 0.2;
+  padding-top: 15px;
+  transition: opacity 200ms,
+    transform 200ms 50ms cubic-bezier(0.23, 1, 0.32, 1);
+  transform: scale(1.5);
+}
+
+.person2 {
+  transition-delay: 100ms;
+}
+
+.person3 {
+  transition-delay: 200ms;
+}
+
+.calendar.visible .person {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.avatar {
+  background-color: #eee;
+  border-radius: 50%;
+  margin-left: 30px;
+  height: 40px;
+  width: 40px;
+}
+  

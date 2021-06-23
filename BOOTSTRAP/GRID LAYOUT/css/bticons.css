@@ -1,0 +1,46 @@
+.row>.col{
+    background-color:black;
+}
+@media only screen  and (min-width:0px) and (max-width:576px){
+
+}
+.row>.col{
+    width: 50%;
+}
+.col>.card{
+    width: 100%;
+}
+/* ****************TRANSFORM AND TRANSITION******** */
+.card>.card-image-top{
+    width: auto;
+    transform:rotate(5deg);
+}
+ .card>.card-image-top:hover{
+    transform:rotate(30deg) scale(1.0);
+    transition: transform 3s ease-in-out;
+} 
+/* ****************TRANSFORM AND TRANSITION******** */
+
+/* ************************CARD********************** */
+
+.pagination{
+    margin: 20px 0px;
+    
+}
+.pagination .page-item{
+    margin:0px 10px;
+    font-size: 10px;
+}
+.pagination .page-link{
+    border-radius:2px;
+    background-color:grey;
+    color: white;
+}
+.pagination .page-link:hover{
+     background-color:black;
+}
+/* ***********************PAGINATION****************** */
+.progress{height:10px;}
+
+
+
